@@ -8,6 +8,8 @@
 - <Nombre 5 y roles>
 - <Nombre 6 y roles>
 
+Modificar lo que sigue a voluntad para que queden unas instrucciones mínimas de cómo ejecutar el juego.
+
 # Welcome to The Python Arcade Community RPG
 
 ![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-success)
