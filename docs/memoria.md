@@ -1,6 +1,6 @@
 # Memoria
 
-## <Nombre del videojuego>
+## Nombre del videojuego
 
 
 TODO
