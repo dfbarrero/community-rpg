@@ -8,7 +8,7 @@
 - <Nombre 5 y roles>
 - <Nombre 6 y roles>
 
-Modificar lo que sigue a voluntad para que queden unas instrucciones mínimas de cómo ejecutar el juego.
+Modificar lo que sigue a voluntad para que queden unas instrucciones mínimas de cómo ejecutar el juego y de cómo es el *gameplay*.
 
 # Welcome to The Python Arcade Community RPG
 
