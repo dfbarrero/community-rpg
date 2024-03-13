@@ -1,4 +1,4 @@
-# <Nombre del juego>
+# Nombre del juego
 
 ## Equipo
 - <Nombre 1 y roles>
@@ -7,6 +7,8 @@
 - <Nombre 4 y roles>
 - <Nombre 5 y roles>
 - <Nombre 6 y roles>
+
+# Welcome to The Python Arcade Community RPG
 
 ![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-success)
 ![First Timer Friendly](https://img.shields.io/badge/First%20Timer-friendly-informational)
