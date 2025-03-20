@@ -15,11 +15,11 @@ class MyWindow(arcade.Window):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE, resizable=True)
         self.views = {}
 
-        arcade.resources.add_resource_handle("characters", "resources/characters")
-        arcade.resources.add_resource_handle("maps", "resources/maps")
-        arcade.resources.add_resource_handle("data", "resources/data")
-        arcade.resources.add_resource_handle("sounds", "resources/sounds")
-        arcade.resources.add_resource_handle("misc", "resources/misc")
+        arcade.resources.add_resource_handle("characters", "../resources/characters")
+        arcade.resources.add_resource_handle("maps", "../resources/maps")
+        arcade.resources.add_resource_handle("data", "../resources/data")
+        arcade.resources.add_resource_handle("sounds", "../resources/sounds")
+        arcade.resources.add_resource_handle("misc", "../resources/misc")
 
 
 def main():

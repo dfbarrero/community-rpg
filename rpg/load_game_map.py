@@ -61,7 +61,7 @@ def load_map(map_name):
     game_map.scene = arcade.Scene.from_tilemap(my_map)
 
     if "characters" in my_map.object_lists:
-        f = open("resources/data/characters_dictionary.json")
+        f = open("../resources/data/characters_dictionary.json")
         character_dictionary = json.load(f)
         character_object_list = my_map.object_lists["characters"]
 
@@ -180,7 +180,7 @@ def load_maps():
     """
 
     # Directory to pull maps from
-    mypath = "resources/maps"
+    mypath = "../resources/maps"
 
     if load_maps.map_file_names is None:
 
@@ -198,7 +198,7 @@ def load_maps():
 
     # Loop and load each file
     map_name = load_maps.map_file_names.pop(0)
-    load_maps.map_list[map_name] = load_map(f"resources/maps/{map_name}.json")
+    load_maps.map_list[map_name] = load_map(f"../resources/maps/{map_name}.json")
 
     files_left = load_maps.file_count - len(load_maps.map_file_names)
     progress = 100 * files_left / load_maps.file_count

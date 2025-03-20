@@ -163,10 +163,10 @@ class GameView(arcade.View):
         self.hotbar_sprite_list = None
         self.selected_item = 1
 
-        f = open("resources/data/item_dictionary.json")
+        f = open("../resources/data/item_dictionary.json")
         self.item_dictionary = json.load(f)
 
-        f = open("resources/data/characters_dictionary.json")
+        f = open("../resources/data/characters_dictionary.json")
         self.enemy_dictionary = json.load(f)
 
         # Cameras
@@ -253,7 +253,7 @@ class GameView(arcade.View):
         last_number_pad_sprite_index = 61
 
         self.hotbar_sprite_list = arcade.load_spritesheet(
-            file_name="resources/tilesets/input_prompts_kenney.png",
+            file_name="../resources/tilesets/input_prompts_kenney.png",
             sprite_width=16,
             sprite_height=16,
             columns=34,
@@ -586,7 +586,7 @@ class GameView(arcade.View):
                 cur_map.light_layer.remove(self.player_light)
             else:
                 cur_map.light_layer.add(self.player_light)
-        elif key == arcade.key.GRAVE:  # `
+        elif key == arcade.key.G:  # G
             # toggle debug
             self.debug = True if not self.debug else False
             if self.debug:
